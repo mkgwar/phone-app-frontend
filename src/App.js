@@ -3,17 +3,19 @@ import "./App.css";
 const App = () => {
   return (
     <main className="h-screen w-full bg-white relative -z-20 overflow-hidden">
-      <div className="bg-div h-[90%] w-1/3 bg-gradient-to-b from-Light-Magenta to-Light-Violet absolute -left-40 rounded-b-full"></div>
+      <div className="bg-div h-[90%] w-1/3 bg-gradient-to-b from-Light-Magenta to-Light-Violet absolute -left-40 rounded-b-full" />
+
       <PhoneApp />
       <TextContent />
-      <div className="bg-div h-3/4 w-1/3 bg-gradient-to-b from-Light-Magenta to-Light-Violet absolute -right-40 bottom-0 rounded-t-full -z-10 opacity-5"></div>
+
+      <div className="bg-div h-3/4 w-1/3 bg-gradient-to-b from-Light-Magenta to-Light-Violet absolute -right-40 bottom-0 rounded-t-full -z-10 opacity-5" />
     </main>
   );
 };
 
 const PhoneApp = () => {
   return (
-    <div className="phone w-[450px] rounded-3xl p-4 bg-white scale-75 shadow-2xl absolute left-80 top-1/2 -translate-y-1/2">
+    <div className="phone w-96 rounded-3xl p-4 bg-white scale-75 shadow-2xl absolute left-80 top-1/2 -translate-y-1/2">
       <div className="header relative">
         <div className="notch"></div>
         <img
